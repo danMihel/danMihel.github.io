@@ -1,0 +1,204 @@
+ @font-face {
+    font-family: 'proxima_novaregular';
+    src: url('fonts/proxima_nova-webfont.woff2') format('woff2'),
+    url('fonts/proxima_nova-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.nav-pills .nav-link.active{
+    background-color: #F69200;
+}
+.nav-btn{
+    color:#ffffff;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    outline: none;
+}
+
+.nav-link{
+    margin:5% 5%;
+    color:#F69200;
+}
+
+html, body { 	
+	font-family: 'Proxima Nova';
+}
+
+.header{ 
+    background-image: url(https://cdn21.img.ria.ru/images/07e4/08/15/1576092766_0:6:1500:850_1920x0_80_0_0_7e0d5928c55ea16d01bf9cedf42ae602.jpg);
+	background-size: cover;
+    padding-top: 15%;
+	padding-bottom: 15%;  
+}
+
+.inviteFormLeft {
+	color:rgb(255, 255, 255);
+    text-shadow: black 3px 8px 5px  ;
+}
+
+.regForm {
+    border-radius: 25px;
+    padding: 30px 40px 60px 40px;
+    background-color: white; 
+    box-shadow: 0px 20px 20px rgb(0, 0, 0);
+    max-width: 400px;
+    margin-top: 10%;
+}
+
+.regForm form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: auto;
+}
+
+.regForm form input{
+    margin-top: 20px;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #fff;
+	border: 1px solid #F69200;
+	box-shadow: none;
+    border-radius: .25rem;	
+}
+
+.input:focus{
+    outline:none;
+    box-shadow: none;
+}
+
+.btnOrange{
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: orange;
+    border: none;
+	border-radius: 25px;
+    margin-top: 5%;
+    padding: 15px 30px 15px 30px; 
+    margin-bottom: 5%; 	
+}
+
+.btnWhite{
+    color: orange;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border: none;
+	border-radius: 25px;
+    padding: 15px 30px 15px 30px;
+	margin-top: 5%;
+    margin-bottom: 5%;
+	
+}
+.carousel-indicators {
+    position: relative;
+    top: 20px
+}
+
+.slideBtnLeft {
+    position: relative;
+    display: inline;
+    float: left; 
+    margin: 15px;
+}
+
+.slideBtnRight{
+    position: relative;
+    display: inline;
+    float: right;  
+    margin: 15px;
+} 
+
+.gameText{
+    color:blanchedalmond;
+}
+
+.gamemeta{ 
+    background-color:rgba(0, 0, 0, 0.8);
+    margin: 0 auto; 
+    padding-top: 3%;  
+    max-width: 1200px;
+}
+
+.title{ 
+    color: rgb(245, 118, 0);
+    text-align: center;    
+}
+
+.gameCardTextContainerTitle{
+    color: rgb(245, 118, 0);
+}
+
+.tab-pane{
+	padding: 3%;   
+    background-color:rgb(78, 78, 78, 0.4);  
+    border: 1px solid rgb(32, 32, 32);
+   
+}
+
+.tabselect{
+    background:url(img/backGround.jpg);
+    background-size:initial;
+    background-repeat:repeat;
+    background-position: center;
+    width: 100%;
+}
+
+.timerBox{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: white;
+    max-width: 1200px;
+}
+
+
+.timerText {
+    max-width: 700px;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: .25rem;
+    padding-left: 60px;
+}
+
+.timerBlock {
+    box-shadow: 0 4px 20px rgb(0 0 0 / 25%);
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    border-radius: .25rem;
+ 
+}
+
+.timerBlock h2{
+   padding-top: 30px;
+   
+}
+
+.timerBlock span {
+    display: block;
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.timerContainer h2{
+    margin-bottom: 30px;
+    text-align:center;
+    margin: 10px;
+}
+
+.timerText h2{
+    text-align:center;
+ 
+}
+
+.footer{
+    margin: 1%;
+    text-align: center;
+}
