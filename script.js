@@ -2,7 +2,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
    
     // Счетчик дней до лекции
-      const deadline = '2022-01-27';
+      const deadline = '2022-02-27';
 
 function getTimeRemaining(endTime){
     const t = Date.parse(endTime) - Date.parse(new Date()),
