@@ -1,0 +1,101 @@
+html, body{
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;    
+    background: linear-gradient(180deg, #032250 0%, rgba(1, 7, 15, 0.82) 100%);
+    color: #ffff;
+   
+}
+
+header{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.title{
+    font-size: 4em;
+}
+
+.mars{
+    margin-top: 3rem;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 25rem; 
+    height: 25rem; 
+    background: url(img/mars.png) no-repeat; 
+    background-size:70%;
+    background-position: 54% 59%;
+    border: thin solid rgb(175, 175, 175);
+    z-index: 1;
+   
+}
+
+.orbit{
+    position: relative;
+    top: -30px;
+    left: 12%;
+    border-radius: 50% 50% ;
+    width: 19rem; 
+    height: 19rem; 
+    border: thin solid rgb(175, 175, 175);
+    z-index: 2;
+}
+
+.demos{
+    position: relative;
+    top: -8px;
+    left: 50%;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 23px;
+    height: 23px; 
+    background: rgb(255, 255, 255); 
+    border: solid rgb(175, 175, 175) 2px;
+     /* задать анимацию «moving» к текущему элементу */
+
+    animation: moving 40s infinite linear;
+    
+    /* указать точку координат, вокруг которой будет вращаться объект */
+    transform-origin: 0px 208px ;
+}
+
+
+.phobos{
+    position: relative;
+    top: 3px;
+    left: 50%;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 23px;
+    height: 23px; 
+    background: rgb(255, 255, 255); 
+    border: solid rgb(175, 175, 175) 2px;
+    z-index: 3;
+     /* задать анимацию «moving» к текущему элементу */
+
+    animation: moving 15s infinite linear;
+    
+    /* указать точку координат, вокруг которой будет вращаться объект */
+    transform-origin: 0px 160px ;
+}
+
+.start-btn{
+    background: linear-gradient(180deg, rgba(12, 235, 237, 1) 0%, rgba(46, 137, 147, 1) 100%);
+    color:#ffff;
+}
+
+
+.grey{
+    color: rgb(140, 140, 140)
+}
+
+@keyframes moving {
+    100% {transform: rotate(360deg);}
+}
+
+
+
+
