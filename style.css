@@ -4,6 +4,8 @@ html, body{
     font-weight: normal;    
     background: linear-gradient(180deg, #032250 0%, rgba(1, 7, 15, 0.82) 100%);
     color: #ffff;
+    height: 100%;
+    width: 100%;
    
 }
 
@@ -12,8 +14,25 @@ header{
     margin-bottom: 2rem;
 }
 
-.title{
-    font-size: 4em;
+.h-1-size{
+    font-size: 6em;
+}
+
+.title-size{
+    font-size: 15em;
+}
+
+.text-size{
+    font-size: 3em;
+    
+}
+
+.info{     
+    margin-bottom: 8em;
+}
+
+.btn{
+    border-radius: 10%;
 }
 
 .mars{
@@ -21,8 +40,8 @@ header{
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
-    width: 25rem; 
-    height: 25rem; 
+    width: 45rem; 
+    height: 45rem; 
     background: url(img/mars.png) no-repeat; 
     background-size:70%;
     background-position: 54% 59%;
@@ -33,18 +52,18 @@ header{
 
 .orbit{
     position: relative;
-    top: -30px;
+    top: 50px;
     left: 12%;
     border-radius: 50% 50% ;
-    width: 19rem; 
-    height: 19rem; 
+    width: 34rem; 
+    height: 34rem; 
     border: thin solid rgb(175, 175, 175);
     z-index: 2;
 }
 
 .demos{
     position: relative;
-    top: -8px;
+    top: -10px;
     left: 50%;
     border-radius: 50%;
     -moz-border-radius: 50%;
@@ -58,13 +77,13 @@ header{
     animation: moving 40s infinite linear;
     
     /* указать точку координат, вокруг которой будет вращаться объект */
-    transform-origin: 0px 208px ;
+    transform-origin: 0px 370px ;
 }
 
 
 .phobos{
     position: relative;
-    top: 3px;
+    top: -10px;
     left: 50%;
     border-radius: 50%;
     -moz-border-radius: 50%;
@@ -79,7 +98,7 @@ header{
     animation: moving 15s infinite linear;
     
     /* указать точку координат, вокруг которой будет вращаться объект */
-    transform-origin: 0px 160px ;
+    transform-origin: 0px 280px ;
 }
 
 .start-btn{
