@@ -1,6 +1,8 @@
+html{
 
+}
 body{
-    box-sizing: content-box;
+    box-sizing: content-box !important;
     font-family: Bebas Neue;
     font-style: normal;
     font-weight: normal;    
