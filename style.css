@@ -100,7 +100,7 @@ header{
     transform-origin: 0px 280px ;
 }
 
-.start-btn{
+.startBtn{
     background: linear-gradient(180deg, rgba(12, 235, 237, 1) 0%, rgba(46, 137, 147, 1) 100%);
     color:#ffff;
 }
@@ -109,10 +109,19 @@ header{
 .grey{
     color: rgb(140, 140, 140)
 }
-/* 
-.footer{
-    max-height: 100vh;
-} */
+
+.nomarg{
+    margin: 0;
+    padding: 0;
+}
+
+.hide {
+   
+    opacity: 0;   
+    transition:
+      opacity 0.5s ease-out 0.1s;
+  }
+
 
 @keyframes moving {
     100% {transform: rotate(360deg);}
