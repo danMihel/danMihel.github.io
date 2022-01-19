@@ -1,31 +1,33 @@
-html, body{
+
+body{
     font-family: Bebas Neue;
     font-style: normal;
     font-weight: normal;    
     background: linear-gradient(180deg, #032250 0%, rgba(1, 7, 15, 0.82) 100%);
     color: #ffff;
+    min-height: 100vh;
 }
 
 header{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
 }
 
 .h-1-size{
-    font-size: 4em;
+    font-size: 4vh;
 }
 
 .title-size{
-    font-size: 10em;
+    font-size: 5vh;
 }
 
 .text-size{
-    font-size: 3em;
+    font-size: 3vh;
     margin-bottom: 0;
 }
 
 .info{     
-    margin-bottom: 8em;
+    margin-bottom: 8vh;
 }
 
 .btn{
@@ -107,11 +109,11 @@ header{
 .grey{
     color: rgb(140, 140, 140)
 }
+/* 
+.footer{
+    max-height: 100vh;
+} */
 
 @keyframes moving {
     100% {transform: rotate(360deg);}
 }
-
-
-
-
