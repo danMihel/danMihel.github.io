@@ -1,8 +1,5 @@
-html{
-    box-sizing: content-box !important;
-}
+
 body{
-  
     font-family: Bebas Neue;
     font-style: normal;
     font-weight: normal;    
@@ -25,7 +22,7 @@ header{
 }
 
 .text-size{
-    font-size: 3rem;
+    font-size: 3vh;
     margin-bottom: 0;
 }
 
