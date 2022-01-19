@@ -4,8 +4,8 @@ html, body{
     font-weight: normal;    
     background: linear-gradient(180deg, #032250 0%, rgba(1, 7, 15, 0.82) 100%);
     color: #ffff;
- 
-
+    height: 100%;
+    
    
 }
 
@@ -15,11 +15,11 @@ header{
 }
 
 .h-1-size{
-    font-size: 6em;
+    font-size: 4em;
 }
 
 .title-size{
-    font-size: 15em;
+    font-size: 10em;
 }
 
 .text-size{
