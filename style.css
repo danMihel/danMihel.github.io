@@ -224,18 +224,18 @@ header{
 }
 .graf{
     position: relative;
-    background: linear-gradient(180deg,  rgb(18, 46, 138) 10%,  rgb(0, 3, 27)70%);
-    top: -15em;
+    background: linear-gradient(180deg,  rgb(18, 46, 138) 10%,  rgb(0, 3, 27)70%);    
     margin: auto;
+    top: -10em;
     font-size: 3rem;
     border-radius: 25px;
     z-index: 2;
 }
 
 .closeBtn{
-    position: relative;
-    
+    position: relative;  
     z-index: 100;
+    top: 7em;
 
 }
 
