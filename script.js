@@ -19,13 +19,14 @@ window.addEventListener('DOMContentLoaded', function() {
         btn.addEventListener('click', ()=>{ 
             let i = 100;
             setInterval(() => title.style.height =  `${i--}px `, 11);                 
-            setTimeout(() => sceneTwo.classList.add('b-show'), 900);  
-            
+            setTimeout(() => sceneTwo.classList.toggle('b-show'), 900);  
+            setTimeout(() => sceneTwo.style.display = "block", 1100);
 
             display.forEach(item => {
-                item.classList.add('hide');                 
-                setTimeout(() => item.classList.add('nomarg'), 100);  
-                setTimeout(() => item.style.display = "none", 1100);        
+                item.classList.toggle('hide');                 
+                setTimeout(() => item.classList.toggle('nomarg'), 100);  
+                setTimeout(() => item.style.display = "none", 1100); 
+                       
             });   
           
     });
