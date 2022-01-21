@@ -1,4 +1,7 @@
-
+html{
+    max-width: 1900px;
+   
+}
 body{
     font-family: Bebas Neue;
     font-style: normal;
@@ -115,14 +118,229 @@ header{
     padding: 0;
 }
 
+.sceneTwo{
+ display: none;
+}
+
+.b-show {
+    display: block;
+    animation: showBlock 3s ease-in-out forwards;
+  }
+  
+  @keyframes showBlock {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
 .hide {
-   
     opacity: 0;   
     transition:
       opacity 0.5s ease-out 0.1s;
-  }
+}
+
 
 
 @keyframes moving {
     100% {transform: rotate(360deg);}
+    
 }
+
+
+
+.raund{
+    border: solid rgb(175, 175, 175) 2px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 3.3em;
+    height: 3.3em;
+    color: #ffff;
+    font-size: 2em;
+}
+.wraper{
+    overflow: hidden;
+ 
+}
+.pluse{
+    position: absolute;
+    color:rgb(6, 6, 71);
+    z-index: 3;
+}
+#pluseOne{
+    top: 15em; 
+    left: 49em;  
+    animation: fadeIn 1s ease-in-out forwards;
+    animation-delay: 2.5s;
+    opacity: 0;
+}
+
+#pluseTwo{
+    top: 25em;  
+    left: 20em;  
+    animation: fadeIn 1s ease-in-out forwards;
+    animation-delay: 3s;
+    opacity: 0;
+}
+
+#pluseThree{
+    top:29em;   
+    left: 44em; 
+    animation: fadeIn 1s ease-in-out forwards;
+    animation-delay: 3.3s;
+    opacity: 0;  
+}
+.bigMars{
+    left: -13vw;
+    width: 130vw;
+    height: 60vh;
+    position: relative;    
+    z-index: 1;
+    background-image: url(img/mars.png);   
+    background-size:cover;
+}
+
+.popUp{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: 40em;
+    margin: auto;
+    z-index: 10;
+    background-color: aliceblue;
+    background:no-repeat ;
+    background-size:cover;
+   
+}
+
+#ms{
+    font-size: 5rem;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.graf{
+    position: relative;
+    background: linear-gradient(180deg,  rgb(18, 46, 138) 10%,  rgb(0, 3, 27)70%);
+    top: -15em;
+    margin: auto;
+    font-size: 3rem;
+    border-radius: 25px;
+    z-index: 2;
+}
+
+.closeBtn{
+    position: relative;
+    
+    z-index: 100;
+
+}
+
+.bord{
+    border-left: solid rgb(122, 122, 122) 6px;
+}
+
+.grafCol{ 
+    width: 1px;
+    background: linear-gradient(180deg,  rgba(2, 252, 252, 1) 0%, rgba(149, 222, 222, 0.13) 70%);
+    border-radius: 2em 2em 0 0;
+    margin-right: 0.3em;
+   
+}
+
+.grfRise{
+animation: grafGrow 3s ease-in-out forwards;
+}
+
+.fadeIn{
+    animation: fadeIn 3.5s ease-in-out forwards;
+}
+
+
+ 
+@keyframes fadeIn {
+    0% {
+        transform: scale(0.7);
+        opacity: 0.0;       
+    }
+   
+    100% {
+        transform: scale(1);
+        opacity: 1; 
+    }       
+}
+
+
+@keyframes grafGrow {
+    0% {
+      transform: scale(0.5);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+#firstCol{
+    height:3.7em;
+  
+}
+
+#secondCol{
+    height: 2.4em;
+  
+}
+
+#thirdCol{
+    height:3.2em;
+
+}
+
+#fourthCol{
+    height: 4.4em;
+ 
+}
+
+#fifthCol{
+    height:2.1em;
+
+}
+
+#sixthCol{
+    height: 3.9em;
+
+}
+
+#seventhCol{
+    height:3.7em;
+
+}
+
+#eighthCol{
+    height: 2.4em;
+
+}
+
+#ninthCol{
+    height:3.3em;
+
+}
+
+#tenthCol{
+    height: 4.9em;
+
+}
+
+#eleventhCol{
+    height:3.6em;
+
+}
+
+#twelfthCol{
+    height: 3.7em;
+
+}
+
+
