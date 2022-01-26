@@ -23,6 +23,7 @@ window.addEventListener('DOMContentLoaded', function() {
             pluse.style.display="none";
             rover.style.display = "none";
             krator.style.display = "none";
+            kanion.style.display = "none";
 
             display.forEach(item => {
                 item.classList.toggle('hide');                 
