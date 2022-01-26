@@ -10,20 +10,22 @@ window.addEventListener('DOMContentLoaded', function() {
           pluse = document.querySelector('.pluse'),
           pluseOne = document.querySelector('#pluseOne'),
           pluseTwo = document.querySelector('#pluseTwo'),
-          pluseThree = document.querySelector('#pluseThree');
+          pluseThree = document.querySelector('#pluseThree'),        
+          main = document.querySelector('main');
          
           rover.style.display="none";
           krator.style.display="none";
           kanion.style.display="none";
-
+          main.style.transition = 'filter 0.5s ease-in-out';     
 
           closeBtn.addEventListener('click', ()=>{             
             title.style.height =  `100px`;
             sceneTwo.style.display = "none";
-            pluse.style.display="none";
+            pluse.style.display= "none";
             rover.style.display = "none";
-            krator.style.display = "none";
-            kanion.style.display = "none";
+            krator.style.display ="none";
+            kanion.style.display ="none";
+            main.style.filter ='brightness(100%)';  
 
             display.forEach(item => {
                 item.classList.toggle('hide');                 
@@ -48,34 +50,47 @@ window.addEventListener('DOMContentLoaded', function() {
           
         });
 
-        pluseOne.addEventListener('click', () =>{
+        pluseTwo.addEventListener('click', () =>{
+            rover.classList.remove('fadeOut');
             rover.style.display = "block";
-            pluse.style.display = "none";                              
-        });  
+            pluse.style.display = "none"; 
+            kanion.style.display = "none";
+            main.style.filter ='brightness(5%)';                              
+            });  
 
         rover.addEventListener('click', () =>{
-            rover.style.display = "none";
-            pluse.style.display = "block";                              
-        });                
+            rover.classList.add('fadeOut');
+            setTimeout(() => rover.style.display = "none", 500);
+            pluse.style.display = "block"; 
+            main.style.filter ='brightness(100%)';                                   
+            });                
         
-        pluseTwo.addEventListener('click', () =>{
+        pluseThree.addEventListener('click', () =>{
+            krator.classList.remove('fadeOut');
             krator.style.display = "block";
-            pluse.style.display = "none";                              
-        });  
+            pluse.style.display = "none";
+            main.style.filter ='brightness(5%)';                           
+            });  
         
         krator.addEventListener('click', () =>{
-            krator.style.display = "none";
-            pluse.style.display = "block";                              
-        });  
+            krator.classList.add('fadeOut');
+            setTimeout(() =>  krator.style.display = "none", 500);
+            pluse.style.display = "block";    
+            main.style.filter ='brightness(100%)';                                
+            });  
            
-        pluseThree.addEventListener('click', () =>{
+         pluseOne.addEventListener('click', () =>{
+            kanion.classList.remove('fadeOut');
             kanion.style.display = "block";
-            pluse.style.display = "none";                              
-        });  
+            pluse.style.display = "none";   
+            main.style.filter ='brightness(5%)';                                
+            });  
             
         kanion.addEventListener('click', () =>{
-            kanion.style.display = "none";
-            pluse.style.display = "block";                              
-        }); 
+            kanion.classList.add('fadeOut');
+            setTimeout(() =>  kanion.style.display = "none", 500);
+            pluse.style.display = "block";
+            main.style.filter ='brightness(100%)';                         
+            }); 
 });
 

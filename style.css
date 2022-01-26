@@ -19,15 +19,15 @@ header{
 }
 
 .h-1-size{
-    font-size: 3vh;
+    font-size: 3rem;
 }
 
 .title-size{
-    font-size: 8vh;
+    font-size: 8rem;
 }
 
 .text-size{
-    font-size: 2.4vh;
+    font-size: 2.4rem;
     margin-bottom: 0;
 }
 
@@ -176,9 +176,10 @@ header{
     top: 30em;
     left: 30em;
     animation: fadeIn 0.4s ease-in-out forwards;
-    animation-delay: 0.3s;
+    animation-delay: 0.2s;
     opacity: 0;
     z-index: 4;
+   
 }
 
 #pluseTwo{
@@ -186,7 +187,7 @@ header{
     top:16em; 
     left: 14em; 
     animation: fadeIn 0.4s ease-in-out forwards;
-    animation-delay: 0.4s;
+    animation-delay: 0.3s;
     opacity: 0; 
     z-index: 4;
   
@@ -207,19 +208,24 @@ header{
     background: url(img/mars.png) no-repeat center top; 
     background-size:contain; 
     z-index: 0;  
+    filter: brightness(100%);
+    transition: all 0.40s ease;
+    
 }
+
 
 .popUp{
     position: relative; 
-    top:-90em; 
-    left: 21%;
-    width: 60%;
-    height: 40%;
+    top:-113em; 
+    left: 2.5%;
+    width: 95%;
+    height: 80em;
+    object-fit: cover;
     z-index: 15;
-    overflow: hidden;   
-    border:solid rgb(121, 120, 138);  
-    animation: fadeIn 0.5s ease-in-out forwards;
+    animation: fadeIn 0.5s ease-in-out forwards;  
 }
+
+
 
 #ms{
     font-size: 5rem;
@@ -263,6 +269,21 @@ header{
     animation: fadeIn 3.5s ease-in-out forwards;
 }
 
+.fadeOut{
+    animation: fadeOut 0.3s ease-in-out forwards;
+}
+
+@keyframes fadeOut {
+    0% { 
+        transform: scale(1);
+        opacity: 1;    
+    }
+   
+    100% {       
+        transform: scale(0.9);
+        opacity: 0.0;  ; 
+    }       
+}
 
 @keyframes fadeIn {
     0% {
