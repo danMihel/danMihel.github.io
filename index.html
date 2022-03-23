@@ -1,458 +1,242 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=0.8">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Аргасцев и партнеры</title>
     <link rel="stylesheet" href="normalize.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <script src="js/tabs.js"></script>
-    <script src="js/slider.js"></script>
-    <script src="js/accordion.js"></script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&display=swap');
-    </style>
+    <script defer src="scrypt.js"></script>
 </head>
-
 <body>
-    <header class="header ">
-        <div class="header_container ">
-            <div class="burger">
-                <img class="line" src="img/Rectangle 6.png">
-                <img class="line" src="img/Rectangle 6.png">
-                <img class="line" src="img/Rectangle 6.png">
-            </div>
-            <a href="" class="logo">
-                <img src="img/Logo.svg" class="logo__img">
-            </a>
-            <nav class="header-nav">
-                <ul class="header-nav__list">
-                    <li>
-                        <a href="" class="header-nav__item">О нас</a>
-                    </li>
-                    <li>
-                        <a href="" class="header-nav__item">Проекты</a>
-                    </li>
-                    <li>
-                        <a href="" class="header-nav__item">Этапы</a>
-                    </li>
-                    <li>
-                        <a href="" class="header-nav__item">Отзывы</a>
-                    </li>
-                    <li>
-                        <a href="" class="header-nav__item">Контакты</a>
-                    </li>
-                    <li>
-                        <img src="img/search.svg" alt="" class="header-nav__item search">
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main>
-        <div class="hero">
-            <div class="hero_container container ">
-                <div class="slider-wraper">
-                    <div class="slider-container ">
-                        <img class="sliderImg" src="img/low.jpg">
-                        <img class="sliderImg" src="img/apartment.jpg">
-                        <img class="sliderImg" src="img/brown.jpg">
-                    </div>
-                </div>
-                <div class="hero-text">
-                    <h1 class="hero__title">
-                        Проектные решения любой сложности
-                    </h1>
-                    <p class="hero__subtitle">
-                        Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются уделом
-                        проектантов
-                    </p>
-                    <div class="hero_btn  orange">Заказать рассчет</div>
-                </div>
-                <div class="tad-bulit-container">
-                    <div class="tab-bulit active"></div>
-                    <div class="tab-bulit"></div>
-                    <div class="tab-bulit"></div>
-                </div>
-            </div>
-        </div>
-        <div class="section-about">
-            <div class="section-about-container container">
-                <h2 class="section__h2">
-                    О нас
-                </h2>
-                <p class="section__text">
-                    Также как перспективное планирование создаёт необходимость включения в производственный план целого
-                    ряда внеочередных мероприятий с учётом комплекса экспериментов, поражающих по своей масштабности и
-                    грандиозности. А также диаграммы связей могут быть описаны максимально подробно. Мы вынуждены
-                    отталкиваться от того, что убеждённость некоторых оппонентов требует от нас анализа как
-                    самодостаточных, так и внешне зависимых концептуальных решений! Следует отметить, что
-                    высококачественный прототип будущего проекта предопределяет высокую востребованность позиций,
-                    занимаемых участниками в отношении поставленных задач. Мы вынуждены отталкиваться от того, что
-                    высококачественный прототип будущего проекта способствует повышению качества&nbsp;экспериментов.
-                </p>
-                <div class="section-about__container">
-                    <div class="section-about__hero">
-                        <div class="section-about__hero__container ">
-                            <p class="section-about__hero__text">Принимая во внимание показатели успешности,
-                                перспективное планирование способствует подготовке и реализации новых принципов.</p>
-                            <div class="section-about__btn">
-                                Подробнее
-                            </div>
-                        </div>
-                    </div>
-                    <p class="section-about__hero__text-min">Принимая во внимание показатели успешности, перспективное
-                        планирование способствует подготовке и реализации новых принципов.</p>
-                    <div class="section-about__btn-min">
-                        Подробнее
-                    </div>
-
-                    <div class="section-about__coll-container">
-                        <div class="section-about__block">
-                            <img src="img/Frame 16.svg" alt="" class="section-about__img">
-                            <div class="section-about__block__text-container">
-                                <h3 class="section__h3">Консультация с широким активом</h3>
-                                <p class="section__text">А также свежий взгляд на привычные вещи - безусловно открывает
-                                    новые горизонты для как самодостаточных, так и внешне зависимых концептуальных
-                                    решений.</p>
-                            </div>
-                        </div>
-                        <div class="section-about__block second">
-                            <img src="img/Frame 12.svg" alt="" class="section-about__img">
-                            <div class="section-about__block__text-container">
-                                <h3 class="section__h3">В своём стремлении повысить </h3>
-                                <p class="section__text">Качество жизни, они забывают, что сплочённость команды
-                                    профессионалов представляет собой интересный эксперимент проверки прогресса
-                                    профессионального сообщества. </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </section>
-        <section class="how-worck">
-            <div class="how-work-container container">
-                <h2 class="section__h2">
-                    Как мы работаем
-                </h2>
-                <div class="step-container">
-                    <ul class="step-items-list">
-                        <li class="step-items__elem step__active" data-path="one">
-                            1 шаг
-                        </li>
-                        <li class="step-items__elem" data-path="two">
-                            2 шаг
-                        </li>
-                        <li class="step-items__elem" data-path="three">
-                            3 шаг
-                        </li>
-                        <il class="step-items__elem" data-path="four">
-                            4 шаг
-                        </il>
-                    </ul>
-                </div>
-                <div class="tab-content tab-content-active" data-target="one">
-                    <div class="how-worck__right-block1">
-                    </div>
-                    <div class="how-worck__container">
-                        <div class="how-worck__left-block">
-                            <h2 class="how-worck__h3"> Проводим консультацию </h2>
-                            <p class="section__text">Влечет за собой процесс внедрения и модернизации приоритизации
-                                разума над эмоциями. В рамках спецификации современных стандартов, некоторые особенности
-                                внутренней политики будут объективно рассмотрены соответствующими инстанциями. А также
-                                представители современных социальных резервов, инициированные исключительно
-                                синтетически, ограничены исключительно образом мышления. Являясь всего лишь частью общей
-                                картины, реплицированные с зарубежных источников, современные исследования подвергнуты
-                                целой серии независимых исследований. Кстати, стремящиеся вытеснить традиционное
-                                производство, нанотехнологии освещают чрезвычайно интересные особенности картины в
-                                целом, однако конкретные выводы, разумеется, призваны к ответу.</p>
-                            <div class="how-worck-btn-section">
-                                <div class="how-worck__btn orange">
-                                    Подробнее
-                                </div>
-                                <div class="how-worck__btn-white">
-                                    Договор
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mobi-how-worck__right-block1 ">
-                            <img src="img/Rectangle 18.jpg" alt="" class="how-worck__img">
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-content" data-target="two">
-                    <div class="how-worck__right-block2">
-                    </div>
-                    <div class="how-worck__container">
-                        <div class="how-worck__left-block">
-                            <h2 class="how-worck__h3">Составляем смету</h2>
-                            <p class="section__text">Внедрения и модернизации приоритизации разума над эмоциями. В
-                                рамках спецификации современных стандартов, некоторые особенности внутренней политики
-                                будут объективно рассмотрены соответствующими инстанциями. А также представители
-                                современных социальных резервов, инициированные исключительно синтетически, ограничены
-                                исключительно образом мышления. Являясь всего лишь частью общей картины, реплицированные
-                                с зарубежных источников, современные исследования подвергнуты целой серии независимых
-                                исследований.</p>
-                            <div class="how-worck-btn-section">
-                                <div class="how-worck__btn orange">
-                                    Подробнее
-                                </div>
-                                <div class="how-worck__btn-white">
-                                    Договор
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mobi-how-worck__right-block2 ">
-                            <img src="img/Rectangle 19.jpg" alt="" class="how-worck__img">
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-content" data-target="three">
-                    <div class="how-worck__right-block3">
-                    </div>
-                    <div class="how-worck__container">
-                        <div class="how-worck__left-block">
-                            <h2 class="how-worck__h3">Привлекаем подрядчиков</h2>
-                            <p class="section__text">Идейные соображения высшего порядка, а также новая модель
-                                организационной деятельности требует анализа прогресса профессионального сообщества.
-                                Высокий уровень вовлечения представителей целевой аудитории является четким
-                                доказательством простого факта: высококачественный прототип будущего проекта напрямую
-                                зависит от дальнейших направлений развития. Разнообразный и богатый опыт говорит нам,
-                                что новая модель организационной деятельности говорит о возможностях системы массового
-                                участия. Принимая во внимание показатели успешности, постоянное
-                                информационно-пропагандистское обеспечение нашей деятельности позволяет выполнить важные
-                                задания по разработке прогресса профессионального сообщества.</p>
-                            <div class="how-worck-btn-section">
-                                <div class="how-worck__btn orange">
-                                    Подробнее
-                                </div>
-                                <div class="how-worck__btn-white">
-                                    Договор
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mobi-how-worck__right-block3 ">
-                            <img src="img/Rectangle 20.jpg" alt="" class="how-worck__img">
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-content" data-target="four">
-                    <div class="how-worck__right-block4">
-                    </div>
-                    <div class="how-worck__container">
-                        <div class="how-worck__left-block">
-                            <h2 class="how-worck__h3">Инспектируем все этапы работ</h2>
-                            <p class="section__text">Высокий уровень вовлечения представителей целевой аудитории
-                                является четким доказательством простого факта: высококачественный прототип будущего
-                                проекта напрямую зависит от дальнейших направлений развития. Разнообразный и богатый
-                                опыт говорит нам, что новая модель организационной деятельности говорит о возможностях
-                                системы массового участия. Принимая во внимание показатели успешности, постоянное
-                                информационно-пропагандистское обеспечение нашей деятельности позволяет.</p>
-                            <div class="how-worck-btn-section">
-                                <div class="how-worck__btn orange">
-                                    Подробнее
-                                </div>
-                                <div class="how-worck__btn-white">
-                                    Договор
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mobi-how-worck__right-block4 ">
-                            <img src="img/Rectangle 21.jpg" alt="" class="how-worck__img">
-                        </div>
-                    </div>
+    <header class="container-fluid">
+        <div class="p-3"></div>
+        <section class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="img/logo.png"> 
+                </div>                   
+                <div class="col  text-end d-flex justify-content-end align-self-center">
+                    <a class=" underline textDarckGrey" href="tel: +7 (999) 999 99 99"> +7 (999) 999 99 99</a>
                 </div>
             </div>
         </section>
-        <section class="faq">
-            <div class="faq-container container">
-                <h2 class="section__h2 ">
-                    Часто задаваемые вопросы
-                </h2>
-                <ul class="faq-list">
-                    <div class="accordion">
-                        <li class="faq-list__item">
-                            <p class="faq-list__item-text">Из чего формируется конечная стоимость проекта?</p>
-                            <div class="faq-pluse "></div>
-                        </li>
-                    </div>
-                    <div class="panel">
-                        <p>Являясь всего лишь частью общей картины, непосредственные участники технического прогресса
-                            призывают нас к новым свершениям, которые, в свою очередь, должны быть своевременно
-                            верифицированы. Но высококачественный прототип будущего проекта является качественно новой
-                            ступенью первоочередных требований. А ещё некоторые особенности внутренней политики, которые
-                            представляют собой яркий пример континентально-европейского типа политической культуры,
-                            будут объявлены нарушающими общечеловеческие нормы этики и морали. И нет сомнений, что явные
-                            признаки победы институционализации призывают нас к новым свершениям, которые, в свою
-                            очередь, должны быть указаны как претенденты на роль ключевых факторов.
-                            Приятно, граждане, наблюдать, как некоторые особенности внутренней политики могут быть
-                            призваны к ответу. Явные признаки победы институционализации набирают популярность среди
-                            определенных слоев населения, а значит, должны быть объединены в целые кластеры себе
-                            подобных. Банальные, но неопровержимые выводы, а также многие известные личности призывают
-                            нас к новым свершениям, которые, в свою очередь, должны быть представлены в исключительно
-                            положительном свете. </p>
-                    </div>
-                    <div class="accordion">
-                        <li class="faq-list__item">
-                            <p class="faq-list__item-text">У меня есть свой проект. Сможем ли мы его доработать /
-                                реализовать?</p>
-                            <div class="faq-pluse "></div>
-                        </li>
-                    </div>
-                    <div class="panel">
-                        <p>Являясь всего лишь частью общей картины, непосредственные участники технического прогресса
-                            призывают нас к новым свершениям, которые, в свою очередь, должны быть своевременно
-                            верифицированы. Но высококачественный прототип будущего проекта является качественно новой
-                            ступенью первоочередных требований. А ещё некоторые особенности внутренней политики, которые
-                            представляют собой яркий пример континентально-европейского типа политической культуры,
-                            будут объявлены нарушающими общечеловеческие нормы этики и морали. И нет сомнений, что явные
-                            признаки победы институционализации призывают нас к новым свершениям, которые, в свою
-                            очередь, должны быть указаны как претенденты на роль ключевых факторов.
-
-                            Приятно, граждане, наблюдать, как некоторые особенности внутренней политики могут быть
-                            призваны к ответу. Явные признаки победы институционализации набирают популярность среди
-                            определенных слоев населения, а значит, должны быть объединены в целые кластеры себе
-                            подобных. Банальные, но неопровержимые выводы, а также многие известные личности призывают
-                            нас к новым свершениям, которые, в свою очередь, должны быть представлены в исключительно
-                            положительном свете. </p>
-                    </div>
-
-                    <div class="accordion">
-                        <li class="faq-list__item">
-                            <p class="faq-list__item-text">Я выбираю между разными компаниями. В чём ваше отличие?</p>
-                            <div class="faq-pluse "></div>
-                        </li>
-                    </div>
-                    <div class="panel">
-                        <p>Являясь всего лишь частью общей картины, непосредственные участники технического прогресса
-                            призывают нас к новым свершениям, которые, в свою очередь, должны быть своевременно
-                            верифицированы. Но высококачественный прототип будущего проекта является качественно новой
-                            ступенью первоочередных требований. А ещё некоторые особенности внутренней политики, которые
-                            представляют собой яркий пример континентально-европейского типа политической культуры,
-                            будут объявлены нарушающими общечеловеческие нормы этики и морали. И нет сомнений, что явные
-                            признаки победы институционализации призывают нас к новым свершениям, которые, в свою
-                            очередь, должны быть указаны как претенденты на роль ключевых факторов.
-
-                            Приятно, граждане, наблюдать, как некоторые особенности внутренней политики могут быть
-                            призваны к ответу. Явные признаки победы институционализации набирают популярность среди
-                            определенных слоев населения, а значит, должны быть объединены в целые кластеры себе
-                            подобных. Банальные, но неопровержимые выводы, а также многие известные личности призывают
-                            нас к новым свершениям, которые, в свою очередь, должны быть представлены в исключительно
-                            положительном свете. </p>
-                    </div>
-                    <div class="accordion">
-                        <li class="faq-list__item">
-                            <p class="faq-list__item-text">Могу ли я делегировать вам работу / согласование с
-                                подрядчиком / организацией? </p>
-                            <div class="faq-pluse "></div>
-                        </li>
-                    </div>
-                    <div class="panel">
-                        <p>Являясь всего лишь частью общей картины, непосредственные участники технического прогресса
-                            призывают нас к новым свершениям, которые, в свою очередь, должны быть своевременно
-                            верифицированы. Но высококачественный прототип будущего проекта является качественно новой
-                            ступенью первоочередных требований. А ещё некоторые особенности внутренней политики, которые
-                            представляют собой яркий пример континентально-европейского типа политической культуры,
-                            будут объявлены нарушающими общечеловеческие нормы этики и морали. И нет сомнений, что явные
-                            признаки победы институционализации призывают нас к новым свершениям, которые, в свою
-                            очередь, должны быть указаны как претенденты на роль ключевых факторов.
-
-                            Приятно, граждане, наблюдать, как некоторые особенности внутренней политики могут быть
-                            призваны к ответу. Явные признаки победы институционализации набирают популярность среди
-                            определенных слоев населения, а значит, должны быть объединены в целые кластеры себе
-                            подобных. Банальные, но неопровержимые выводы, а также многие известные личности призывают
-                            нас к новым свершениям, которые, в свою очередь, должны быть представлены в исключительно
-                            положительном свете. </p>
-                    </div>
-                    <div class="accordion">
-                        <li class="faq-list__item">
-                            <p class="faq-list__item-text">Могу ли я делегировать вам работу / согласование с
-                                подрядчиком / организацией? </p>
-                            <div class="faq-pluse "></div>
-                        </li>
-                    </div>
-                    <div class="panel">
-                        <p>Являясь всего лишь частью общей картины, непосредственные участники технического прогресса
-                            призывают нас к новым свершениям, которые, в свою очередь, должны быть своевременно
-                            верифицированы. Но высококачественный прототип будущего проекта является качественно новой
-                            ступенью первоочередных требований. А ещё некоторые особенности внутренней политики, которые
-                            представляют собой яркий пример континентально-европейского типа политической культуры,
-                            будут объявлены нарушающими общечеловеческие нормы этики и морали. И нет сомнений, что явные
-                            признаки победы институционализации призывают нас к новым свершениям, которые, в свою
-                            очередь, должны быть указаны как претенденты на роль ключевых факторов.
-
-                            Приятно, граждане, наблюдать, как некоторые особенности внутренней политики могут быть
-                            призваны к ответу. Явные признаки победы институционализации набирают популярность среди
-                            определенных слоев населения, а значит, должны быть объединены в целые кластеры себе
-                            подобных. Банальные, но неопровержимые выводы, а также многие известные личности призывают
-                            нас к новым свершениям, которые, в свою очередь, должны быть представлены в исключительно
-                            положительном свете. </p>
-                    </div>
-                </ul>
-            </div>
-        </section>
-        <footer class="footer">
-            <div class="footer-container container">
-                <div class="footer-left">
-                    <img src="img/Logo.svg" class="">
-                    <nav class="footer-nav">
-                        <ul>
-                            <li class="footer-nav__elem">
-                                О нас
-                            </li>
-                            <li class="footer-nav__elem">
-                                Проекты
-                            </li>
-                            <li class="footer-nav__elem">
-                                Отзывы
-                            </li>
-                            <li class="footer-nav__elem">
-                                Договор оферты
-                            </li>
-                            <li class="footer-nav__elem">
-                                Договор подряда
-                            </li>
-                            <li class="footer-nav__elem">
-                                Конфиденциальность
-                            </li>
-                            <li class="footer-nav__elem">
-                                Партнёрское соглашение
-                            </li>
-                        </ul>
+        <div class="p-5 mb-5"></div>
+        <section class="container">
+            <div class="row">
+                <div class="col-3">
+                    <nav>
+                        <p class="mb-3"> <a class="textDarckGrey fs-5" href="#team">КОМАНДА </a></p>
+                        <p class="mb-3"> <a class="textDarckGrey fs-5" href="#practise">ПРАКТИКИ </a></p>
+                        <p class="mb-3"> <a class="textDarckGrey fs-5" href="#clients">КЛИЕНТЫ </a></p>
+                        <p class="mb-3"> <a class="textDarckGrey fs-5" href="#contacts">КОНТАКТЫ </a></p>
                     </nav>
-                    <div class="social-bar">
-                        <img class="icon" src="img/fb.png">
-                        <img class="icon" src="img/Vk.png">
-                        <img class="icon" src="img/inst.png">
-                    </div>
                 </div>
-                <div class="footer-center">
-                    <h2 class="footer__h2">Оставить заявку</h2>
-                    <form class="form">
-                        <input class="form__input" required type="text" name="userName"
-                            placeholder="Фамилия, имя и отчество*">
-                        <input class="form__input" required type="email" name="email" placeholder="E-mail*">
-                        <textarea class="form__textaria" placeholder="Cообщение"></textarea>
-                        <div class="footer-btn-group">
-                            <button class="form__btn orange" type="submit" value="Отправить данные">Отправить
-                                данные</button>
-                            <p class="footer__checkbox"><input type="checkbox" checked> Согласен на обработку данных</p>
-                        </div>
-                    </form>
+                <div class="col-sm-6">
+                    <p class=" h1 p-lg-5 p-sm-3  text-center p-4 borderGreen textGrey">КОМАНДНАЯ РАБОТА <br> В ИНТЕРЕСАХ ВАШЕГО БИЗНЕСА </p> 
                 </div>
-                <div class="footer-right">
-                    <p class="footer-text">
-                        Высокий уровень вовлечения представителей целевой аудитории является четким доказательством
-                        простого факта: разбавленное изрядной долей эмпатии, рациональное мышление позволяет оценить
-                        значение модели развития. Таким образом, консультация с широким активом обеспечивает широкому
-                        кругу (специалистов) участие в формировании стандартных подходов.
-                    </p>
+                <div class="col-sm-0 ">
                 </div>
             </div>
-        </footer>
+        </section>
+        <div class="p-5"></div>
+    </header>   
+    <main >
+        <section class="container-fluid greyBackground">
+            <div class="row">
+                <a name="team"></a>
+                <div class="col-lg-5 argImg">              
+                </div>
+                <div class="col">
+                    <div class=" m-5 d-flex hig flex-column justify-content-between">                      
+                        <div class="p-5">
+                            <p class="h2 py-lg-5 py-sm-4"><span class="underline">Профессиональная</span> юридическая поддержка</p>
+                            <p class="fs-5"> Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum. </p>
+                        </div>                      
+                        <div class="">
+                            <span>АНТОН АРГАСЦЕВ  арбитражный управляющий 
+                            <br> корпоративное право, банкротство, защита активов</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <section class="container-fluid darckGreyBackground textGrey">
+            <div class="row">
+                <div class="col ">
+                    <div class=" m-5 d-flex hig flex-column justify-content-between">                      
+                        <div class="p-5">
+                            <p class="h2 py-lg-5 py-sm-4">Грамотное решение <mark class="markGreen">деликатных</mark> вопросов</p>
+                            <p class="fs-5"> Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum. </p>
+                        </div>                      
+                        <div class=" ">
+                            <span class=" float-end text-end"> ФАТИМА КРИВЕНЦОВА 
+                                <br>семейное право, социальная защита, жилищное право
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 krivImg">              
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid greyBackground">
+            <div class="row">
+                <div class="col-lg-5 gruImg">              
+                </div>
+                <div class="col">
+                    <div class=" m-5 d-flex hig flex-column justify-content-between">                      
+                        <div class="p-lg-5 p-sm-3">
+                            <p class="h2 py-lg-5 py-sm-4"><span class="underline"> Сильная защита</span> в спорах с  государством</p>
+                            <p class="fs-5"> Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum. </p>
+                        </div>                      
+                        <div class="">                           
+                            <span> ИРИНА ГРУЗДОВА адвокат
+                            <br>защита по уголовным и административным делам</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <section class="container-fluid darckGreyBackground">
+            <a name="practise"></a>
+            <div class="p-5"></div>
+            <div class="col container textGrey">
+                <div class="row text-center ">
+                    <p class="h2"> ПРАКТИКИ</p>
+                </div>
+                <div class="p-4"></div>
+                <div class="row d-flex justify-content-around">
+                    <div class="col-4 text-center">
+                        <span class="fs-3 text-end text-center underline accordion">Корпоративное право</span>
+                        <ul class="fs-6 text-start" style="visibility: hidden;" >
+                            <li>Подготовка и проведение сделок M&A</li>
+                            <li>Due Diligence</li>
+                            <li>Реорганизации и реструктуризация бизнеса</li>
+                            <li>Анализ эффективности и прозрачности корпоративных структур</li>
+                            <li>Сопровождение выпусков ценных бумаг и сделок с ними </li> 
+                            <li>Сопровождение инвестиционных проектов</li>
+                        </ul>
+                    </div>
+                    <div class="col-4 text-center">
+                        <span class="fs-3 text-center underline accordion">Налоговое право</span>
+                        <ul class="fs-6 text-start" style="visibility: hidden;">
+                            <li>Налогообложение в рамках инвестиционной деятельности</li>
+                            <li>Налоговый аудит</li>
+                            <li>Сопровождение выездных и камеральных проверок</li>
+                            <li>Защита в спорах с налоговым органом</li>
+                            <li>Консультации и сопровождение деятельности ПИФ, ЗПИФ</li> 
+                        </ul>
+                    </div>
+                    <div class="col-4 text-center">
+                        <span class="fs-3 text-start underline accordion">Семейное право</span>
+                        <ul class="fs-6 text-start"  style="visibility: hidden;">
+                            <li>Брачные договоры</li>
+                            <li>Брачные конфликты и бракоразводный процесс</li>
+                            <li>Определение местажительства несовершеннолетнего ребенка и алименты</li>
+                            <li>Раздел совместно нажитого имущества</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row py-5">
+                    <div class="col-4 text-center">
+                        <span class="fs-3 text-start underline accordion">Строительство и недвижимость</span>
+                        <ul class="fs-6 text-start"  style="visibility: hidden;">
+                            <li >Сопровождение сделок с недвижимостью</li>
+                            <li>Представление интересов клиента в  спорах по  аренде</li>
+                            <li>Приобретение прав на земельные участки из государственной собственности</li>
+                            <li>Структурирование девелоперских проектов</li> 
+                            <li>Правовое сопровождение при строительстве и подключении к инфраструктуре</li>
+                            <li>Сопровождение проектов ГЧП</li>
+                        </ul>
+                    </div>
+                    <div class="col-4 text-center">
+                        <span class="fs-3 text-center underline accordion">Банкротство</span>
+                        <ul class="fs-6 text-start"  style="visibility: hidden;">
+                            <li>Вступление в дело о банкротстве на стороне кредитора</li>
+                            <li>Медиация</li>
+                            <li>Сопровождение судебных дел о банкротстве</li>
+                            <li>Арбитражный управляющий на любую стадию дел о банкротстве</li>
+                        </ul>
+                    </div>
+                    <div class="col-4 text-center">
+                        <span class="fs-3 text-start underline accordion">Уголвоное право</span>
+                        <ul class="fs-6 text-start" style="visibility: hidden;">
+                            <li>Консультирование по уголовному делу, составление процессуальных документов</li>
+                            <li>Правовая помощь на всех этапах следствия и в суде</li>
+                            <li>Представительство интересов потерпевшего по уголовному&nbsp;делу</li>
+                            <li>Решение вопросов о снятии судимости, УДО, ПТР, ИТР</li>
+                            <li>Оказание консультационной помощи по делам об административных правонарушениях</li> 
+                            <li>Обжалование решений суда в порядке главы 30 КОАП РФ</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="p-5"></div>
+        </section>
+        <section class="container-fluid greyBackground">
+            <a name="clients"></a>
+            <div class="p-5"></div>
+            <div class="col">
+                <div class="row text-center">
+                    <p class="h2"> НАМ ДОВЕРЯЮТ</p>
+                </div>
+                <div class="row">
+                    <div class="col ">
+                        <img class="img-fluid mx-auto d-block p-lg-5 p-sm-2" src="img/circul.png">
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid mx-auto d-block p-lg-5 p-sm-2" src="img/circul.png">
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid mx-auto d-block p-lg-5 p-sm-2" src="img/circul.png">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col ">
+                        <img class="img-fluid mx-auto d-block p-lg-5 p-sm-2" src="img/circul.png">
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid mx-auto d-block p-lg-5 p-sm-2" src="img/circul.png">
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid mx-auto d-block p-lg-5 p-sm-2" src="img/circul.png">
+                    </div>
+                </div>
+            </div>
+            <div class="p-5"></div>
+        </section>
+        
     </main>
+    <footer class="container-fluid darckGreyBackground textGrey">
+        <a name="contacts"></a>     
+        <div class="p-3"></div>
+        <div class="col">
+            <div class="row text-center">
+                <p class="h2 p-5"> КОНТАКТЫ</p>
+            </div>
+            <div class="row text-center">
+                <div class="col">
+                    <p> 190000 Санкт-Петербург, Дворцовая наб., 32, оф. 337</p>
+                </div>
+                <div class="col">
+                    <a class="textGrey" href="mailto:law@lawer.ru">law@lawer.ru</a>
+                </div>
+                <div class="col">
+                    <a class="textGrey" href="tel: +7 (999) 999 99 99"> +7 (999) 999 99 99</a>
+                </div>
+            </div>
+            <div class="row p-5">
+                <div class="col"></div>                
+                <div class="col">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.725933557515!2d30.325220315957296!3d59.936689769218034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310f3c325169%3A0x13457e6f9ece3e12!2z0JjRgtCw0LvRjNGP0L3RgdC60LDRjyDRg9C7LiwgMS84LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1648036536011!5m2!1sru!2sru" width="800" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+        
+    </footer>
 </body>
 </html>
