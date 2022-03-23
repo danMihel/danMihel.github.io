@@ -18,7 +18,10 @@ a {
     text-decoration:none;
 }
 
-.underline:hover{
+.practiseTitle{
+    text-decoration:underline #16C772 12px;
+}
+.practiseTitle:hover{
     color: rgb(240, 240, 240);
 }
 

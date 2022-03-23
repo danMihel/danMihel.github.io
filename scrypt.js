@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     for (i = 0; i < acc.length; i++) {
         acc[i].addEventListener("click", function() {
-            this.classList.toggle("underline");
+            this.classList.toggle("practiseTitle");
             this.classList.toggle("markGreen");  
             let panel = this.nextElementSibling;
             
