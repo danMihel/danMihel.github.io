@@ -11,17 +11,19 @@
 
 html, body { 	
 	font-family: 'Oswald';
-    caret-color: transparent;
-    
+    caret-color: transparent;    
 }
 
 a {
     text-decoration:none;
 }
 
+.underline:hover{
+    color: rgb(240, 240, 240);
+}
 
 a:hover{
-    color: rgb(199, 199, 199);
+    color: rgb(240, 240, 240);
 }
 
 .accordion{
