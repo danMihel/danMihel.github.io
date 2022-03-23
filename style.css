@@ -24,6 +24,10 @@ a:hover{
     color: rgb(199, 199, 199);
 }
 
+.accordion{
+    cursor: pointer;
+}
+
 .underline{
     text-decoration:underline #16C772 12px;
 }
