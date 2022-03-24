@@ -21,7 +21,7 @@ a {
 }
 
 .practiseTitle{
-    text-decoration:underline #16C772 12px;
+    text-decoration:underline #16C772 1vw;
 }
 .practiseTitle:hover{
     color: rgb(240, 240, 240);
@@ -36,7 +36,7 @@ a:hover{
 }
 
 .underline{
-    text-decoration:underline #16C772 12px;
+    text-decoration:underline #16C772 1vw;
 }
 
 header{
