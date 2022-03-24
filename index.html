@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="normalize.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script defer src="bootstrap.bundle.min.js"></script>
     <script defer src="scrypt.js"></script>
 </head>
 <body>
@@ -19,25 +20,45 @@
                     <img src="img/logo.png"> 
                 </div>                   
                 <div class="col  text-end d-flex justify-content-end align-self-center">
-                    <a class=" underline textDarckGrey" href="tel: +7 (999) 999 99 99"> +7 (999) 999 99 99</a>
+                    <a class=" d-none d-lg-block underline textDarckGrey" href="tel: +7 (999) 999 99 99"> +7 (999) 999 99 99</a>
+                    <div>
+                        <a class=" " data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                            <img class=" d-lg-none burger" src="img/hamburger_menu.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="offcanvas offcanvas-top" data-bs-backdrop="false" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Разделы</h5>
+                    <button type="button" class="btn-close text-reset p-3" data-bs-dismiss="offcanvas" aria-label="Закрыть"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <nav class="fs-6 text-center" >
+                        <p class="mb-3"> <a class="textDarckGrey fs-5" href="#team">КОМАНДА </a></p>
+                        <p class="mb-3"> <a class="textDarckGrey fs-5" href="#practise">ПРАКТИКИ </a></p>
+                        <p class="mb-3"> <a class="textDarckGrey fs-5" href="#clients">КЛИЕНТЫ </a></p>
+                        <p class="mb-3"> <a class="textDarckGrey fs-5" href="#contacts">КОНТАКТЫ </a></p>
+                        <a class=" textDarckGrey fs-5" href="tel: +7 (999) 999 99 99"> +7 (999) 999 99 99</a>
+                    </nav>
                 </div>
             </div>
         </section>
         <div class="p-5 mb-5"></div>
         <section class="container">
             <div class="row">
-                <div class="col-3">
-                    <nav>
+                <div class="col-lg-3">
+                    <nav class="d-none d-lg-block">
                         <p class="mb-3"> <a class="textDarckGrey fs-5" href="#team">КОМАНДА </a></p>
                         <p class="mb-3"> <a class="textDarckGrey fs-5" href="#practise">ПРАКТИКИ </a></p>
                         <p class="mb-3"> <a class="textDarckGrey fs-5" href="#clients">КЛИЕНТЫ </a></p>
                         <p class="mb-3"> <a class="textDarckGrey fs-5" href="#contacts">КОНТАКТЫ </a></p>
                     </nav>
                 </div>
-                <div class="col-sm-6">
-                    <p class=" h1 p-lg-5 p-sm-3  text-center p-4 borderGreen textGrey">КОМАНДНАЯ РАБОТА <br> В ИНТЕРЕСАХ ВАШЕГО БИЗНЕСА </p> 
+                <div class="col">
+                    <p class=" h1 p-5 lh-lg text-center borderGreen textGrey">КОМАНДНАЯ РАБОТА <br> В ИНТЕРЕСАХ ВАШЕГО БИЗНЕСА </p> 
                 </div>
-                <div class="col-sm-0 ">
+                <div class="col-lg-3">
                 </div>
             </div>
         </section>
@@ -45,13 +66,12 @@
     </header>   
     <main >
         <section class="container-fluid greyBackground">
-            <div class="row">
+            <div class="row flex-xxl-row flex-xl-row flex-lg-row flex-md-row  flex-column">
                 <a name="team"></a>
-                <div class="col-lg-5 argImg">              
-                </div>
+                <div class="col-lg-5 hig argImg"></div>
                 <div class="col">
                     <div class=" m-5 d-flex hig flex-column justify-content-between">                      
-                        <div class="p-5">
+                        <div class="p-lg-5 p-1">
                             <p class="h2 py-lg-5 py-sm-4"><span class="underline">Профессиональная</span> юридическая поддержка</p>
                             <p class="fs-5"> Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum. </p>
                         </div>                      
@@ -63,11 +83,12 @@
                 </div>
             </div>
         </section> 
-        <section class="container-fluid darckGreyBackground textGrey">
-            <div class="row">
+        <section class="container-fluid darckGreyBackground textGrey">            
+            <div class="row d-flex flex-row-reverse ">
+                <div class="col-lg-5 hig krivImg"></div>
                 <div class="col ">
                     <div class=" m-5 d-flex hig flex-column justify-content-between">                      
-                        <div class="p-5">
+                        <div class="p-lg-5 p-1">
                             <p class="h2 py-lg-5 py-sm-4">Грамотное решение <mark class="markGreen">деликатных</mark> вопросов</p>
                             <p class="fs-5"> Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum. </p>
                         </div>                      
@@ -78,17 +99,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-5 krivImg">              
-                </div>
             </div>
         </section>
         <section class="container-fluid greyBackground">
             <div class="row">
-                <div class="col-lg-5 gruImg">              
-                </div>
+                <div class="col-lg-5 hig gruImg"></div>
                 <div class="col">
                     <div class=" m-5 d-flex hig flex-column justify-content-between">                      
-                        <div class="p-lg-5 p-sm-3">
+                        <div class="p-lg-5 p-1">
                             <p class="h2 py-lg-5 py-sm-4"><span class="underline"> Сильная защита</span> в спорах с  государством</p>
                             <p class="fs-5"> Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum. </p>
                         </div>                      
@@ -108,10 +126,10 @@
                     <p class="h2"> ПРАКТИКИ</p>
                 </div>
                 <div class="p-4"></div>
-                <div class="row d-flex justify-content-around">
-                    <div class="col-4 text-center">
-                        <span class="fs-3 text-end text-center practiseTitle accordion">Корпоративное право</span>
-                        <ul class="fs-6 text-start" style="visibility: hidden;" >
+                <div class="row hig25 flex-xxl-row flex-xl-row flex-lg-row flex-md-row  flex-column ">
+                    <div class="col text-center">
+                        <div class="fs-3 m-2 practiseTitle accordion">Корпоративное право</div>
+                        <ul class="fs-6 text-start" style="display: none;" >
                             <li>Подготовка и проведение сделок M&A</li>
                             <li>Due Diligence</li>
                             <li>Реорганизации и реструктуризация бизнеса</li>
@@ -120,9 +138,9 @@
                             <li>Сопровождение инвестиционных проектов</li>
                         </ul>
                     </div>
-                    <div class="col-4 text-center">
-                        <span class="fs-3 text-center practiseTitle accordion">Налоговое право</span>
-                        <ul class="fs-6 text-start" style="visibility: hidden;">
+                    <div class="col text-center">
+                        <div class="fs-3 m-2 practiseTitle accordion">Налоговое право</div>
+                        <ul class="fs-6 text-start" style="display: none;">
                             <li>Налогообложение в рамках инвестиционной деятельности</li>
                             <li>Налоговый аудит</li>
                             <li>Сопровождение выездных и камеральных проверок</li>
@@ -130,9 +148,9 @@
                             <li>Консультации и сопровождение деятельности ПИФ, ЗПИФ</li> 
                         </ul>
                     </div>
-                    <div class="col-4 text-center">
-                        <span class="fs-3 text-start practiseTitle accordion">Семейное право</span>
-                        <ul class="fs-6 text-start"  style="visibility: hidden;">
+                    <div class="col text-center">
+                        <div class="fs-3 m-2 practiseTitle accordion">Семейное право</div>
+                        <ul class="fs-6 text-start"  style="display: none;">
                             <li>Брачные договоры</li>
                             <li>Брачные конфликты и бракоразводный процесс</li>
                             <li>Определение местажительства несовершеннолетнего ребенка и алименты</li>
@@ -140,10 +158,10 @@
                         </ul>
                     </div>
                 </div>
-                <div class="row py-5">
-                    <div class="col-4 text-center">
-                        <span class="fs-3 text-start practiseTitle accordion">Строительство и недвижимость</span>
-                        <ul class="fs-6 text-start"  style="visibility: hidden;">
+                <div class="row hig25 flex-xxl-row flex-xl-row flex-lg-row flex-md-row  flex-column ">
+                    <div class="col text-center">
+                        <div class="fs-3 m-2 practiseTitle accordion">Строительство и недвижимость</div>
+                        <ul class="fs-6 text-start"  style="display: none;">
                             <li >Сопровождение сделок с недвижимостью</li>
                             <li>Представление интересов клиента в  спорах по  аренде</li>
                             <li>Приобретение прав на земельные участки из государственной собственности</li>
@@ -152,18 +170,18 @@
                             <li>Сопровождение проектов ГЧП</li>
                         </ul>
                     </div>
-                    <div class="col-4 text-center">
-                        <span class="fs-3 text-center practiseTitle accordion">Банкротство</span>
-                        <ul class="fs-6 text-start"  style="visibility: hidden;">
+                    <div class="col text-center">
+                        <div class="fs-3 m-2 practiseTitle accordion">Банкротство</div>
+                        <ul class="fs-6 text-start" style="display: none;">
                             <li>Вступление в дело о банкротстве на стороне кредитора</li>
                             <li>Медиация</li>
                             <li>Сопровождение судебных дел о банкротстве</li>
                             <li>Арбитражный управляющий на любую стадию дел о банкротстве</li>
                         </ul>
                     </div>
-                    <div class="col-4 text-center">
-                        <span class="fs-3 text-start practiseTitle accordion">Уголвоное право</span>
-                        <ul class="fs-6 text-start" style="visibility: hidden;">
+                    <div class="col text-center">
+                        <div class="fs-3 m-2 practiseTitle accordion">Уголвоное право</div>
+                        <ul class="fs-6 text-start" style="display: none;">
                             <li>Консультирование по уголовному делу, составление процессуальных документов</li>
                             <li>Правовая помощь на всех этапах следствия и в суде</li>
                             <li>Представительство интересов потерпевшего по уголовному&nbsp;делу</li>
@@ -228,12 +246,10 @@
                     <a class="textGrey" href="tel: +7 (999) 999 99 99"> +7 (999) 999 99 99</a>
                 </div>
             </div>
-            <div class="row p-5">
-                <div class="col"></div>                
-                <div class="col">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.725933557515!2d30.325220315957296!3d59.936689769218034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310f3c325169%3A0x13457e6f9ece3e12!2z0JjRgtCw0LvRjNGP0L3RgdC60LDRjyDRg9C7LiwgMS84LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1648036536011!5m2!1sru!2sru" width="800" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div class="row p-5">              
+                
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.725933557515!2d30.325220315957296!3d59.936689769218034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310f3c325169%3A0x13457e6f9ece3e12!2z0JjRgtCw0LvRjNGP0L3RgdC60LDRjyDRg9C7LiwgMS84LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1648036536011!5m2!1sru!2sru"  height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
-                <div class="col"></div>
             </div>
         </div>
         

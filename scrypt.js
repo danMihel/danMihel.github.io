@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
 
+    
     let acc = document.querySelectorAll(".accordion"),
         i;
     
@@ -9,10 +10,10 @@ document.addEventListener('DOMContentLoaded', () => {
             this.classList.toggle("markGreen");  
             let panel = this.nextElementSibling;
             
-            if (panel.style.visibility === "visible") {
-                panel.style.visibility = "hidden";
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
             } else {
-                panel.style.visibility = "visible";
+                panel.style.display = "block";
             }
         });
     }

@@ -11,7 +11,9 @@
 
 html, body { 	
 	font-family: 'Oswald';
-    caret-color: transparent;    
+    caret-color: transparent;  
+    padding: 0 !important;  
+    margin: 0 !important;
 }
 
 a {
@@ -92,7 +94,15 @@ header{
     background-image: url(img/gru.jpg);   
 }
 
-
 .hig{
     min-height: 700px;
+}
+
+.hig25{
+    min-height: 250px;
+}
+
+.offcanvas{
+    width: 100%;
+    height: 35%;
 }
