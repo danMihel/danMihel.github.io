@@ -1,21 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
+    let bord = document.querySelector("#headLine");  
 
-    
-    let acc = document.querySelectorAll(".accordion"),
-        i;
-    
-    for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function() {
-            this.classList.toggle("practiseTitle");
-            this.classList.toggle("markGreen");  
-            let panel = this.nextElementSibling;
-            
-            if (panel.style.display === "block") {
-                panel.style.display = "none";
-            } else {
-                panel.style.display = "block";
-            }
-        });
-    }
-    
+        window.addEventListener('scroll', () => {
+            val = scrollY/4.5;
+            bord.style = `border-bottom: 10px solid transparent; 
+                        border-image:linear-gradient(to right top,#6667ab 0%, transparent ${val}%, transparent 90%, #6667ab 100%);
+                        border-image-slice: 1;`;
+    });
 });

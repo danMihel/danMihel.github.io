@@ -132,8 +132,10 @@ box-shadow: 20px 15px 25px rgb(39, 39, 39);
 }
 
 .underline{
-    text-decoration:underline #6667ab 10px;
-}
+/*     border-bottom: 5px solid transparent;
+    border-image: linear-gradient(to right top,#6667ab 10%,  transparent 30%, transparent 70%, #6667ab 100%);
+    border-image-slice: 1; */
+} 
 
 .face{
     background-size:contain;
