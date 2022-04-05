@@ -1,0 +1,144 @@
+/* div{
+    border:solid tomato
+} */
+
+@font-face {
+    font-family:  'Oswald';
+    src: url('fonts/Oswaldregular.woff') format('woff'), url('fonts/Oswaldregular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body { 	
+	font-family: 'Oswald';
+    caret-color: transparent;  
+    padding: 0 !important;  
+    margin: 0 !important;
+}
+
+li{
+    list-style-type: none;
+}
+
+a {
+    text-decoration:none;
+}
+
+.vialet{
+    color:#b847c9
+}
+
+.vialet-background{
+    background-color: #6667ab;
+}
+
+.vialet-text{
+    color:#6667ab
+}
+
+
+.grey-background{
+    background-color: #d9d9d9;
+}
+
+.hero-left{
+    background-image: url(img/new-york-g6fde7e0ec_1920.jpg);
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.heig{
+    height: 700px;
+}
+
+.heig-servis{
+    height: 300px;
+    background-color:aqua
+}
+
+.text-about{
+    position: relative;
+    top: 13vw;
+    left: -60px;
+    height: 10%;
+    padding: 4vw;
+    
+}
+
+.box-shadow{
+box-shadow: 20px 15px 25px rgb(39, 39, 39);
+}
+
+.info-text{
+    margin-left: 8vw;
+    width: 80%;
+}
+
+.taps{
+    font-size: 8em;
+}
+
+.serve-one{
+    margin-right: 18px;
+    border:solid #6667ab 10px;  
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(img/table.jpg);   
+}
+
+.serve-two{
+    border:solid #6667ab 10px;
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(img/shop.jpg); 
+}
+
+.serve-three{
+    margin-right: 18px;
+    border:solid #6667ab 10px;
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(img/urban.jpg); 
+}
+
+.serve-foure{
+    border:solid #6667ab 10px;
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(img/wines.jpg); 
+}
+
+.serve-five{
+    margin-right: 18px;
+    border:solid #6667ab 10px;
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(img/restaurant.jpg); 
+}
+
+.serve-six{
+    border:solid #6667ab 10px;
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(img/compute.jpg); 
+}
+
+.underline{
+    text-decoration:underline #6667ab 10px;
+}
+
+.face{
+    background-size:contain;
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(img/male-g4656cb403_1920.jpg); 
+}
