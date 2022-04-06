@@ -1,7 +1,7 @@
 /* div{
     border:solid tomato
-} */
-
+}
+ */
 @font-face {
     font-family:  'Oswald';
     src: url('fonts/Oswaldregular.woff') format('woff'), url('fonts/Oswaldregular.woff2') format('woff2');
@@ -55,7 +55,6 @@ a {
 
 .heig-servis{
     height: 300px;
-    background-color:aqua
 }
 
 .text-about{
@@ -80,17 +79,15 @@ box-shadow: 20px 15px 25px rgb(39, 39, 39);
     font-size: 8em;
 }
 
-.serve-one{
+#serveOne{
     margin-right: 18px;
-    border:solid #6667ab 10px;  
     background-position:top;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(img/table.jpg);   
 }
 
-.serve-two{
-    border:solid #6667ab 10px;
+#serveTwo{
     background-position:top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -131,11 +128,11 @@ box-shadow: 20px 15px 25px rgb(39, 39, 39);
     background-image: url(img/compute.jpg); 
 }
 
-.underline{
-/*     border-bottom: 5px solid transparent;
+/* .underline{
+    border-bottom: 5px solid transparent;
     border-image: linear-gradient(to right top,#6667ab 10%,  transparent 30%, transparent 70%, #6667ab 100%);
-    border-image-slice: 1; */
-} 
+    border-image-slice: 1;
+}  */
 
 .face{
     background-size:contain;
