@@ -49,6 +49,14 @@ a {
     
 }
 
+.background {
+    background-image: url(img/background.png);
+    background-position:left ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
 .heig{
     height: 700px;
 }
@@ -67,12 +75,17 @@ a {
 }
 
 .box-shadow{
-box-shadow: 20px 15px 25px rgb(39, 39, 39);
+box-shadow: 20px 15px 18px rgb(61, 60, 60);
 }
 
 .info-text{
     margin-left: 8vw;
     width: 80%;
+}
+
+.info-right-text{
+    font-size: 100px;
+    font-weight: 700;
 }
 
 .taps{
