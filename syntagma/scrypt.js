@@ -16,8 +16,8 @@ document.addEventListener('DOMContentLoaded', () => {
     function aboutUs(elem, count, order){
         window.addEventListener('scroll', () => {
             val = (scrollY - elem.offsetTop + elem.offsetTop*count);
-            elem.style =   `border: 10px solid transparent;; 
-                            border-image:linear-gradient(${order},#6667ab ${val/5}%, transparent 0%, transparent 100%, #6667ab 0%);
+            elem.style =   `border: 10px solid transparent;
+                            border-image:linear-gradient(${order},#6667ab ${val/8}%, transparent 0%, transparent 100%, #6667ab 0%);
                             border-image-slice: 1;`;
         });
     }
