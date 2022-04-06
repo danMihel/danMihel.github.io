@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     header();
-    grad(about, -4.5, 'to left top');
+    grad(about, -2.6, 'to left top');
     grad(left, 0.2, 'to left bottom' );
     grad(right, 0.3, 'to right bottom');
 
