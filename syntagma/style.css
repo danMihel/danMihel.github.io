@@ -73,7 +73,16 @@ a {
     padding: 4vw;
     
 }
-
+@media (max-width: 990px){
+    .text-about{
+        position: relative;
+        top: 0vw;
+        left: 0px;
+        height: 10%;
+        padding: 4vw;
+        
+    }
+}
 .box-shadow{
 box-shadow: 20px 15px 18px rgb(61, 60, 60);
 }
@@ -141,16 +150,12 @@ box-shadow: 20px 15px 18px rgb(61, 60, 60);
     background-image: url(img/compute.jpg); 
 }
 
-/* .underline{
-    border-bottom: 5px solid transparent;
-    border-image: linear-gradient(to right top,#6667ab 10%,  transparent 30%, transparent 70%, #6667ab 100%);
-    border-image-slice: 1;
-}  */
 
 .face{
     background-size:contain;
     background-position:top;
     background-repeat: no-repeat;
     background-size: cover;
+    min-width: 300px;
     background-image: url(img/male-g4656cb403_1920.jpg); 
 }
