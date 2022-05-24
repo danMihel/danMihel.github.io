@@ -1,0 +1,118 @@
+div{
+    border-collapse: collapse;
+}
+
+@font-face {
+    font-family:  'Oswald';
+    src: url('fonts/Oswaldregular.woff') format('woff'), url('fonts/Oswaldregular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body { 	
+	font-family: 'Oswald';
+    caret-color: transparent;  
+    padding: 0 !important;  
+    margin: 0 !important;
+}
+
+li{
+    list-style-type: none;
+}
+
+a {
+    text-decoration:none;
+}
+
+.vialet{
+    color:#8a3497
+}
+
+.vialet-background{
+    background-color: #3a3858;
+}
+
+.vialet-text{
+    color:#6667ab
+}
+
+.txt-grey{
+    color:#9b9b9b
+}
+
+.txt-light-grey{
+    color:#b8b8b8
+}
+
+.nav:hover{
+    color:#dfdfdf
+}
+
+.grey-background{
+    background-color: #d9d9d9;
+}
+
+.hero-left{
+    background-image: url(img/nad-gorodom.jpg);
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.background {
+    background-image: url(img/background.png);
+    background-position:left ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.heig{
+    height: 700px;
+}
+
+.text-about{
+    position: relative;
+    top: 8vw;
+    left: -60px;
+    height: 10%;
+    padding: 4vw;
+    
+}
+@media (max-width: 990px){
+    .text-about{
+        position: relative;
+        top: 0vw;
+        left: 0px;
+        height: 10%;
+        padding: 4vw;
+        
+    }
+}
+.box-shadow{
+box-shadow: 15px 10px 18px rgb(61, 60, 60);
+}
+
+.info-text{
+    margin-left: 8vw;
+    width: 80%;
+}
+
+.info-right-text{
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.taps{
+    font-size: 8em;
+}
+
+.face{
+    background-size:contain;
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 300px;
+    background-image: url(img/femid.jpg); 
+}
