@@ -1,12 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-    fildOne = document.getElementById('strOne');
-    str1 = ["Visualize your data"];
-    str2 = ["Rationalize your portfolio of assets",];
-    str3 = ['You know what your business does.'];
-    str4 = ['You have a list of technologies used.'];
-    str5 = ['You need to answer questions like: '];
-    str6 = ['How to reduce technology debt?\n',
+    let str1 = ["Visualize your data"];
+    let str2 = ["Rationalize your portfolio of assets",];
+    let str3 = ['You know what your business does.'];
+    let str4 = ['You have a list of technologies used.'];
+    let str5 = ['You need to answer questions like: '];
+    let str6 = ['How to reduce technology debt?\n',
             'Where is the record of truth for Customer profile?\n',
             'How to mitigate risk of license/version expiration?\n',
             'Which applications store sensitive data?\n',
