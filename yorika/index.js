@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },4000);              
         }
     playAnimation();
-    setTimeout(function(){
+    setInterval(function(){
         playAnimation();
     },60000);                
 
