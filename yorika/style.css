@@ -2,144 +2,252 @@ body {
     font-family: 'Inter', sans-serif;
     overflow-x: hidden;
 }
-#scenWraper{
+#scenWraper {
     padding-top: 30px;
 }
-.animTitle{
+.animTitle {
     font-size: 3rem;
+    font-weight: 600;
 }
-.animQestion{
-    margin-left: 10%;
-    font-family: 'Inter', sans-serif;
+.hidden {
+    height:0px;
+    animation-name: fade-out;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards; 
+    
 }
-.bg-darck-blue{
+.noDisplay{
+    display: none;
+}
+@keyframes fade-out {
+    /* Устанавливаем и изменяем степень прозрачности: */
+    0% {
+        height:60px;
+        opacity: 1;
+    } 25%{
+        opacity: 0;
+    }100%{
+        height: 0;
+        margin: 0;
+        padding: 0;
+        opacity: 0;
+    }
+
+}
+.animQestion {
+    margin: auto;
+    
+}
+.bg-darck-blue {
     background-color: #0F1A36;
 }
-.bord{
+.bord {
     border: solid tomato;
 }
-.text-color-nav{
+.text-color-nav {
     color: #ABA7A7;
 }
-.text-color-darck{
+.text-color-darck {
     color: #444444;
 }
-.text-color-blue{
+.text-color-blue {
     color: #2F5597;
 }
-.text-color-pink{
+.text-color-pink {
     color: #C55AA2;
 }
-.menu-item{
-    text-decoration:none;
+.menu-item {
+    text-decoration: none;
     color: #ABA7A7;
 }
-.menu-item:hover{
+.menu-item:hover {
     color: whitesmoke;
 
 }
-.hero-container{
-    background-image: url(img/bg-hero.png);
+.hero-container {
+    background-image: url('img/bg-hero.png');
     background-size: cover;
 }
-.button{
-    background-color:#C55AA2;
+.button {
+    background-color: #C55AA2;
     border: solid 1px #2F5597;
     color: #FFFAFA;
     padding: 13px 120px;
     border-radius: 20px;
     width: 330px;
 }
-.scene{
-    height: 900px;
+.scene {
+    min-height: 400px;
 }
-.bg-separator{
-    background-image: url(img/separator.png);
+.bg-separator {
+    background-image: url('img/separator.png');
     background-size: 100%;
     background-repeat: no-repeat;
     height: 150px;
     width: 100%;
 }
-.bg-center{
-    background-image: url(img/bg-center.png);
-    background-size:cover;
+.bg-center {
+    background-image: url('img/bg-center.png');
+    background-size: cover;
 }
-.center-subtitle{
+.center-subtitle {
     margin-left: 25%;
 }
-#center-pic-top{
+#center-pic-top {
     position: relative;
 }
 
-#center-pic-top::after{
+#center-pic-top::after {
     position: absolute;
     top: 140px;
     left: 5.1%;
-    content: "   ";
+    content: " ";
     width: 12.5vw;
     height: 380px;
     border-top: dotted 6px rgba(236, 125, 199, 0.6);
-    border-left:dotted 6px rgba(236, 125, 199, 0.6);
-    border-bottom:dotted 6px rgba(236, 125, 199, 0.6);
+    border-left: dotted 6px rgba(236, 125, 199, 0.6);
+    border-bottom: dotted 6px rgba(236, 125, 199, 0.6);
 }
-#center-pic-top::before{
+#center-pic-top::before {
     position: absolute;
     top: 515px;
     left: 18%;
-    content: "   ";
+    content: " ";
     width: 55vw;
     height: 700px;
-    border-top:dotted 6px rgba(236, 125, 199, 0.6);
-    border-right:dotted 6px rgba(236, 125, 199, 0.6);
-    border-bottom:dotted 6px rgba(236, 125, 199, 0.6);
+    border-top: dotted 6px rgba(236, 125, 199, 0.6);
+    border-right: dotted 6px rgba(236, 125, 199, 0.6);
+    border-bottom: dotted 6px rgba(236, 125, 199, 0.6);
 }
 
-#center-pic-center{
+#center-pic-center {
     position: relative;
-    
+
 }
-#center-pic-center::before{
+#center-pic-center::before {
     position: absolute;
     margin-left: 3%;
     top: 1210px;
     left: 8.2%;
-    content: "   ";
+    content: " ";
     width: 6.5vw;
     height: 500px;
-    border-top:dotted 6px rgba(236, 125, 199, 0.6);
-    border-left:dotted 6px rgba(236, 125, 199, 0.6);
-    border-bottom:dotted 6px rgba(236, 125, 199, 0.6);
+    border-top: dotted 6px rgba(236, 125, 199, 0.6);
+    border-left: dotted 6px rgba(236, 125, 199, 0.6);
+    border-bottom: dotted 6px rgba(236, 125, 199, 0.6);
 }
-    #center-pic-center::after{
+#center-pic-center::after {
     position: absolute;
     top: 1950px;
     left: 20%;
-    content: "   ";
+    content: " ";
     width: 50vw;
     height: 270px;
-    border-right:dotted 6px rgba(236, 125, 199, 0.6);
-    border-bottom:dotted 6px rgba(236, 125, 199, 0.6);
-} 
-#center-pic-bottom{
+    border-right: dotted 6px rgba(236, 125, 199, 0.6);
+    border-bottom: dotted 6px rgba(236, 125, 199, 0.6);
+}
+#center-pic-bottom {
     position: relative;
 }
-    #center-pic-bottom::before{
+#center-pic-bottom::before {
     position: absolute;
     top: 2230px;
     left: 20%;
-    content: "   ";
+    content: " ";
     width: 52vw;
     height: 450px;
-    border-left:dotted 6px rgba(236, 125, 199, 0.6);
-    border-bottom:dotted 6px rgba(236, 125, 199, 0.6);
-} 
-.bg-separator-bottom{
+    border-left: dotted 6px rgba(236, 125, 199, 0.6);
+    border-bottom: dotted 6px rgba(236, 125, 199, 0.6);
+}
+.bg-separator-bottom {
     margin-top: 100px;
     margin-bottom: 0;
     padding: 0;
-    background-image: url(img/separator_bottom.png);
+    background-image: url('img/separator_bottom.png');
     background-size: 100%;
     background-repeat: no-repeat;
     height: 50px;
     width: 100%;
 }
+.active {
+    color: #C55AA2
+}
+/* Слайдер: */
+.slider {
+    max-width: 90%;
+    /* Положение элемента устанавливается относительно его исходной позиции: */
+    position: relative;
+    /* Центрируем по горизонтали: */
+    margin: auto;
+    height: 300px;
+}
+
+/* Картинка масштабируется по отношению к родительскому элементу: */
+.slider .item img {
+    /* Элемент меняет размер так, чтобы заполнить блок и сохранить пропорции: */
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+}
+
+/* Анимация слайдов: */
+.slider .item {
+    animation-name: fade;
+    animation-duration: 1s;
+    
+}
+@keyframes fade {
+    /* Устанавливаем и изменяем степень прозрачности: */
+    from {
+        transform: translateY(-2%) ; 
+        opacity: 0.5;
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0%) ;
+    }
+}
+.pre-built-img{
+    animation-name: left;
+    animation-duration: 3s;
+    animation-delay: -350ms;
+}
+
+.proven-img{
+    object-fit: scale-down;
+    animation-name: left;
+    animation-duration: 3s;
+    animation-delay: -50ms;
+}
+#proven-img1{
+    animation-name: left;
+    animation-duration: 3s;
+    animation-delay: -100ms
+}
+#proven-img2{
+    animation-name: left;
+    animation-duration: 3s;
+    animation-delay: -500ms
+}
+#proven-img3{
+    animation-name: left;
+    animation-duration: 3s;
+    animation-delay: -1000ms
+}
+#proven-img4{
+    animation-name: left;
+    animation-duration: 3s;
+    animation-delay: -1500ms
+}
+@keyframes left {
+    /* Устанавливаем и изменяем степень прозрачности: */
+    from {
+        transform: translateX(300%) ; 
+        opacity: 0.0;
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0%) ;
+    }
+}
+
