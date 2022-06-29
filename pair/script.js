@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () =>{
 
         let btn = document.createElement('button');
 
-        btn.classList.add('btn','btn-danger');
+        btn.classList.add('btn','btn-danger', 'mx-2');
         btn.textContent ='Перемешать карты';
         container.append(btn);
 
@@ -27,8 +27,8 @@ document.addEventListener('DOMContentLoaded', () =>{
                 row = document.createElement('div'),
                 container = document.createElement('div');
 
-                container.classList.add('row');
-                row.classList.add('row');
+                container.classList.add('row', 'justify-content-center');
+                row.classList.add('row', 'justify-content-center');
                 coll1.classList.add('coll');
                 coll2.classList.add('coll');
                 coll3.classList.add('coll');
@@ -118,5 +118,3 @@ document.addEventListener('DOMContentLoaded', () =>{
 
         });    
 });
-
-
