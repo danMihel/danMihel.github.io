@@ -1,0 +1,50 @@
+
+.container{
+    max-width: 440px;
+    align-items: center;
+}
+.coll {
+    padding: 30px;
+    width: 20%;
+    border: red solid 1px;
+    margin-right: 10px;  
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 2rem;
+    background-color: rgb(179, 61, 61);
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.trosform{
+    animation:zero 0.3s  linear;
+    animation-fill-mode: forwards;
+}
+
+.trosform p{
+    color: rgb(179, 61, 61);
+}
+
+.hiden{
+    visibility: hidden;
+}
+
+@keyframes zero{ 
+    0%{ 
+        transform:rotateY(-180deg);
+        background-color: rgb(179, 61, 61)
+    } 
+    50%{  
+        background-color: rgb(179, 61, 61)
+    }
+    51%{  
+        background-color: white
+    }
+    100%{ 
+        transform:rotateY(0deg);
+        background-color: white
+    }
+}
